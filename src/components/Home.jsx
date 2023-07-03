@@ -10,7 +10,7 @@ const Home = () => {
             <title>24/7 AssureCare - Home</title>
             {/* <h2>24/7 Assure Care LLC</h2> */}
             {/* <h2 style={{ color: 'white' }}>24/7 Assure Care LLC</h2> */}
-            <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#2B8C79' }} >
+            <div className="" style={{ width: '100%', height: '200px', backgroundColor: '#2B8C79' }} >
                 <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>

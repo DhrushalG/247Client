@@ -38,7 +38,7 @@ const AboutUs = () => {
             </div>
 
             <div style={{ width: '50%', backgroundColor: '#2B8C79' }}>
-                <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive image" />
+                <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
         </div>
     )

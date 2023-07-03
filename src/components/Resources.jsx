@@ -5,7 +5,7 @@ const Resources = () => {
     return (
         <div className="Resources text-center">
             <div className="" style={{ height: '400px', width: '100%' }}>
-                <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive image" />
+                <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
                 <div className=" d-flex flex-wrap justify-content-around p-4" style={{}}>

@@ -11,7 +11,7 @@ const Contact = () => {
                 <h5>847-483-8999</h5>
             </div>
             <div className="" style={{ width: '100%', height: '600px' }}>
-                <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive image" />
+                <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
         </div>
     )

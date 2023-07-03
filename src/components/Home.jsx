@@ -11,7 +11,7 @@ const Home = () => {
             {/* <h2>24/7 Assure Care LLC</h2> */}
             {/* <h2 style={{ color: 'white' }}>24/7 Assure Care LLC</h2> */}
             <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#2B8C79' }} >
-                <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive image" />
+                <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
                 <h2 className='mt-4 mb-2'>Providing Excellent Care you Deserve</h2>
@@ -51,13 +51,13 @@ const Home = () => {
                     </div>
 
                     <div className="border" style={{ width: '50%', backgroundColor: '#2B8C79' }}>
-                        <img src={image3} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive image" />
+                        <img src={image3} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                 </div>
 
                 <div className="d-flex" style={{ minHeight: '50%' }}>
                     <div className="" style={{ width: '50%' }}>
-                        <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive image" />
+                        <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
                     <div className='p-4' style={{ width: '50%' }}>

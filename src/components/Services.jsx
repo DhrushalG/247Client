@@ -1,11 +1,10 @@
-import image1 from "../images/image1.jpeg";
+
 import image2 from "../images/image2.jpeg";
 import image3 from "../images/image3.jpeg";
 import image4 from "../images/image4.jpeg";
-import image5 from "../images/image5.jpeg";
 
 import '../static/App.css';
-import { AddHomeWork, Bento, Accessibility, Iron, Bathtub, SelfImprovement, LocalMall, Medication } from '@mui/icons-material';
+import { Bento, Accessibility, Iron, Bathtub, SelfImprovement, LocalMall, Medication } from '@mui/icons-material';
 
 const Services = () => {
     return (
@@ -19,7 +18,7 @@ const Services = () => {
             <div className="" style={{ backgroundColor: '#2B8C79', color: 'white' }}>
                 <div className="d-flex" style={{ height: '50%' }}>
                     <div className="" style={{ width: '34%' }}>
-                        <img src={image2} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive image" />
+                        <img src={image2} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
                     <div className="p-4" style={{ width: '33%' }}>
@@ -35,7 +34,7 @@ const Services = () => {
                     </div>
 
                     <div className="" style={{ width: '33%' }}>
-                        <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive image" />
+                        <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                 </div>
                 <div className="d-flex" style={{ height: '50%' }}>
@@ -49,7 +48,7 @@ const Services = () => {
                     </div>
 
                     <div className="" style={{ width: '33%' }}>
-                        <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive image" />
+                        <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                     <div className="p-4" style={{ width: '33%' }}>
                         <h4 className="mt-2">COMPANIONSHIP & SUPERVISION</h4>

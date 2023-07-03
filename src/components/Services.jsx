@@ -8,7 +8,7 @@ import { Bento, Accessibility, Iron, Bathtub, SelfImprovement, LocalMall, Medica
 
 const Services = () => {
     return (
-        <div className="text-center" style={{ minWidth: '1000px' }}>
+        <div className="text-center" style={{ minWidth: '100%' }}>
             <div style={{ color: '#2B8C79' }}>
                 <h2 className="mt-4">OUR SERVICES</h2>
                 <p>Quality Guranteed</p>
@@ -64,7 +64,7 @@ const Services = () => {
             </div>
 
             <div className="p-4 d-flex flex-wrap justify-content-around" style={{ backgroundColor: '#1B8A79', color: 'white' }}>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <Bento class='icon'></Bento>
                     </div>
@@ -74,7 +74,7 @@ const Services = () => {
                         ensuring they get the nourishment they need to stay healthy.
                     </label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <LocalMall class='icon'></LocalMall>
                     </div>
@@ -84,7 +84,7 @@ const Services = () => {
                         dropping off mail, so your loved one can focus on enjoying their day.
                     </label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <SelfImprovement class='icon'></SelfImprovement>
                     </div>
@@ -93,7 +93,7 @@ const Services = () => {
                         Our caregivers can help your loved one stay active and healthy with light exercise
                         and movement, tailored to their abilities and preferences.</label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <Medication class='icon'></Medication>
                     </div>
@@ -103,7 +103,7 @@ const Services = () => {
                         time to take their pills and ensuring they're taking them as prescribed.
                     </label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <Accessibility class='icon'></Accessibility>
                     </div>
@@ -113,7 +113,7 @@ const Services = () => {
                         techniques to ensure your loved one stays safe and comfortable.
                     </label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <Iron class='icon'></Iron>
                     </div>
@@ -123,7 +123,7 @@ const Services = () => {
                         and laundry, to keep your loved one's home clean and comfortable.
                     </label>
                 </div>
-                <div className="p-4 mx-5" style={{ width: '275px' }}>
+                <div className="p-4 mx-5" style={{ width: '250px' }}>
                     <div className="mt-4">
                         <Bathtub class='icon'></Bathtub>
                     </div>

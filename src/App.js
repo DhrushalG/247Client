@@ -26,9 +26,9 @@ function App() {
                 <div class="collapse navbar-collapse d-flex justify-content-center" style={{ marginRight: '15%' }} id="navbarNavAltMarkup">
                   <div class="navbar-nav" >
                     <Link class="nav-link" to='/'>Home</Link>
-                    <Link class="nav-link" to='AboutUs'>About Us</Link>
+                    <Link class="nav-link mx-2" to='AboutUs'>About Us</Link>
                     <Link class='nav-link' to='Services'>Services</Link>
-                    <Link class="nav-link" to='Contact'>Contact</Link>
+                    <Link class="nav-link mx-2" to='Contact'>Contact</Link>
                     <Link class="nav-link" to='Resources'>Resources</Link>
                   </div>
                 </div>

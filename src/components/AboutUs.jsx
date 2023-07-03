@@ -6,9 +6,9 @@ import '../static/App.css';
 const AboutUs = () => {
     return (
         <div className="AboutUs d-flex text-center" style={{ height: '100%', width: '100%' }}>
-            <div className="p-4" style={{ width: '50%' }}>
+            <div className="p-5" style={{ width: '50%' }}>
                 <h2 className="">GET TO KNOW US</h2>
-                <label htmlFor="">
+                <p htmlFor="">
                     As a company founded by a family with over 25 years of combined care
                     giving experience, we understand that caring for a loved one can be a
                     challenging and emotional journey. That's why we're here to offer our
@@ -20,16 +20,13 @@ const AboutUs = () => {
                     just a friendly companion, we're here to help. Our services are available on
                     a flexible schedule, including live-in and hourly options, so you can choose
                     the level of care that best fits your needs.
-                </label>
-
-                <div class="row align-items-center">
-                    <div class="">
-                        <h2 class="">Why choose 24/7 Assure Care?</h2>
-                        <p class="">Our agency is founded by a pair of experienced caregivers who understand
-                            that each client requires personalized care. When choosing a caregiver for each client, we take deep consideration into
-                            compatibility based on client needs and preferences. Offering 24 hour services including holidays and weekends, you and
-                            your loved one can relax knowing 24/7 Assure Care is there.</p>
-                    </div>
+                </p>
+                <div class="">
+                    <h2 class="">Why choose 24/7 Assure Care?</h2>
+                    <p class="">Our agency is founded by a pair of experienced caregivers who understand
+                        that each client requires personalized care. When choosing a caregiver for each client, we take deep consideration into
+                        compatibility based on client needs and preferences. Offering 24 hour services including holidays and weekends, you and
+                        your loved one can relax knowing 24/7 Assure Care is there.</p>
                 </div>
                 <div className="d-flex justify-content-center">
                     <Link className='btn rounded-pill m-4' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Services'>Our Services</Link>

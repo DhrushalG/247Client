@@ -19,7 +19,7 @@ function App() {
           <header>
             <nav class="navbar-dark navbar-expand" style={{ backgroundColor: '#1B8C79' }}>
               <div class="container-fluid navbar-nav">
-                <Link class="nav-link" to='/'>
+                <Link class="" to='/'>
                   <img src={Logo} className='mr-2' alt="" style={{ borderRadius: '5px' }} />
                   24/7 Assure Care
                 </Link>

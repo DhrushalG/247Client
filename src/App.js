@@ -6,7 +6,7 @@ import Resources from './components/Resources';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import './static/App.css';
-import Logo from './images/AssureCareLogo.jpg';
+import Logo from './images/logo.jpg';
 
 function App() {
   return (
@@ -22,7 +22,10 @@ function App() {
 
                 <div className=' d-flex align-items-center' style={{ minWidth: '25%' }}>
                   <Link className='nav-link' to='/'>
-                    <img src={Logo} className='' alt="" style={{ borderRadius: '5px' }} />
+                    <div>
+
+                    </div>
+                    <img src={Logo} className='p-1' alt="" style={{ backgroundColor: 'white', boxShadow: '50px -165px 40px 160px rgba(30, 158, 130, 1)', borderRadius: '10px' }} />
                   </Link>
                   <Link class=" mt-2 nav-link h5" to='/'>
                     24/7 Assure Care

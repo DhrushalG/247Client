@@ -1,12 +1,8 @@
 import { Link } from 'react-router-dom';
 import '../static/App.css';
-import image1 from "../images/image1.jpeg";
 import image3 from "../images/image3.jpeg";
 import image4 from "../images/image4.jpeg";
 import image6 from "../images/image6.jpg";
-import image7 from "../images/image7.jpg";
-import image8 from "../images/image8.jpg";
-import image9 from "../images/image9.jpg";
 const Home = () => {
     return (
         <div class='Home d-flex flex-column align-items-center text-center'>

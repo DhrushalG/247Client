@@ -14,14 +14,9 @@
     color: #2B8C79;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
 @media (max-width: 1024px) {
     * {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 

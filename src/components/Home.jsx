@@ -50,13 +50,13 @@ const Home = () => {
                         <Link className='btn rounded-pill' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/AboutUs'>About Us</Link>
                     </div>
 
-                    <div className="" style={{ width: '50%', minWidth: '475px', backgroundColor: '#2B8C79' }}>
+                    <div className="" style={{ width: '50%', minWidth: '350px', backgroundColor: '#2B8C79' }}>
                         <img src={image3} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                 </div>
 
                 <div className="d-flex flex-wrap justify-content-center" style={{ minHeight: '50%' }}>
-                    <div className=" " style={{ width: '50%', minWidth: '475px' }}>
+                    <div className=" " style={{ width: '50%', minWidth: '350px' }}>
                         <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 

@@ -18,7 +18,7 @@ function App() {
         <body>
           <header>
             <nav class="navbar-dark navbar-expand" style={{ backgroundColor: '#1B8C79' }}>
-              <div class="navbar-nav align-items-center" >
+              <div class="navbar-nav align-items-center d-flex" >
 
                 <div className='d-flex align-items-center' style={{ width: '25%' }}>
                   <Link className='nav-link' to='/'>
@@ -29,14 +29,14 @@ function App() {
                   </Link>
                 </div>
 
-                <div class="d-flex flex-wrap justify-content-center" style={{ width: '50%' }}>
-                  <Link class="nav-link mx-2" to='/AboutUs'>About Us</Link>
-                  <Link class='nav-link mx-1' to='/Services'>Services</Link>
-                  <Link class="nav-link mx-1" to='/Contact'>Contact</Link>
-                  <Link class="nav-link ml-2" to='/Resources'>Resources</Link>
+                <div class="d-flex flex-wrap justify-content-center" style={{ minWidth: '50%' }}>
+                  <Link class="nav-link ml-4" to='/AboutUs'>About Us</Link>
+                  <Link class='nav-link mx-4' to='/Services'>Services</Link>
+                  <Link class="nav-link mx-4" to='/Contact'>Contact</Link>
+                  <Link class="nav-link mr-2" to='/Resources'>Resources</Link>
                 </div>
 
-                <div className='' style={{ width: '25%' }}></div>
+                {/* <div className='' style={{ maxWidth: '25%' }}></div> */}
 
 
 

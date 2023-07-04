@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div className="AboutUs d-flex flex-wrap justify-content-center text-center" style={{ height: '100%', width: '100%' }}>
             <title>24/7 AssureCare - About Us</title>
-            <div className="p-5" style={{ width: '50%', minWidth: '450px' }}>
+            <div className="p-3" style={{ width: '50%', minWidth: '350px' }}>
                 <h2 className="">GET TO KNOW US</h2>
                 <p htmlFor="">
                     As a company founded by a family with over 25 years of combined care
@@ -33,7 +33,7 @@ const AboutUs = () => {
                 </div> */}
             </div>
 
-            <div style={{ width: '50%', minWidth: '475px' }}>
+            <div style={{ width: '50%', minWidth: '350px' }}>
                 <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             {/* <div className="p-5" style={{ width: '50%' }}>
@@ -47,7 +47,7 @@ const AboutUs = () => {
                     <Link className='btn rounded-pill m-4' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Contact'>Contact</Link>
                 </div>
             </div> */}
-            <div className='p-5' style={{ width: '50%', minWidth: '450px' }}>
+            <div className='p-3' style={{ width: '50%', minWidth: '350px' }}>
                 <h2 class="">WHY CHOOSE 24/7 ASSURE CARE?</h2>
                 <p class="">Our agency is founded by a pair of experienced caregivers who understand
                     that each client requires personalized care. When choosing a caregiver for each client, we take deep consideration into

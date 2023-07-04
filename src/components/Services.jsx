@@ -17,11 +17,11 @@ const Services = () => {
 
             <div className="" style={{ backgroundColor: '#2B8C79', color: 'white' }}>
                 <div className="d-flex flex-wrap justify-content-center" style={{ height: '50%' }}>
-                    <div className="" style={{ width: '34%', minWidth: '475px' }}>
+                    <div className="" style={{ width: '34%', minWidth: '350px' }}>
                         <img src={image2} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
-                    <div className="p-4" style={{ width: '33%', minWidth: '450px' }}>
+                    <div className="p-4" style={{ width: '33%', minWidth: '350px' }}>
                         <h4 className="mt-2">24-HOUR LIVE-IN</h4>
                         <label>
                             Our caregivers can provide around-the-clock care and support, living with
@@ -33,13 +33,14 @@ const Services = () => {
 
                     </div>
 
-                    <div className="" style={{ width: '33%', minWidth: '475px' }}>
+                    <div className="" style={{ width: '33%', minWidth: '350px' }}>
                         <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
-                </div>
-                <div className="d-flex flex-wrap justify-content-center" style={{ height: '50%' }}>
+                    {/* </div> */}
 
-                    <div className="p-4" style={{ width: '34%', minWidth: '450px' }}>
+                    {/* <div className="d-flex flex-wrap justify-content-center" style={{ height: '50%' }}> */}
+
+                    <div className="p-4" style={{ width: '34%', minWidth: '350px' }}>
                         <h4 className="mt-4">DAILY LIVING ACTIVITY</h4>
                         <label htmlFor="">
                             Our caregivers can assist in daily activities by helping your loved one
@@ -47,10 +48,10 @@ const Services = () => {
                             and dignity.</label>
                     </div>
 
-                    <div className="" style={{ width: '33%', minWidth: '475px' }}>
+                    <div className="" style={{ width: '33%', minWidth: '350px' }}>
                         <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
-                    <div className="p-4" style={{ width: '33%', minWidth: '450px' }}>
+                    <div className="p-4" style={{ width: '33%', minWidth: '350px' }}>
                         <h4 className="mt-2">COMPANIONSHIP & SUPERVISION</h4>
                         <label htmlFor="">
                             Our caregivers can provide companionship and supervision to help your loved one stay

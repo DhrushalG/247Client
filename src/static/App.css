@@ -3,6 +3,7 @@
 }
 
 * {
+    /* border: 1px solid black; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
@@ -16,7 +17,7 @@
 
 @media (max-width: 1024px) {
     * {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 

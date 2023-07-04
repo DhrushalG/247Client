@@ -10,7 +10,7 @@ const Home = () => {
             <title>24/7 AssureCare - Home</title>
             {/* <h2>24/7 Assure Care LLC</h2> */}
             {/* <h2 style={{ color: 'white' }}>24/7 Assure Care LLC</h2> */}
-            <div className="" style={{ width: '100%', height: '300px', backgroundColor: '#2B8C79' }} >
+            <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#2B8C79' }} >
                 <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className="my-4" style={{ width: '100%', height: '100%' }}>
                 <div className="d-flex flex-wrap justify-content-center" style={{}}>
-                    <div className=" p-4" style={{ width: '50%', minWidth: '450px' }}>
+                    <div className=" p-4" style={{ width: '50%', minWidth: '350px' }}>
                         <h2 className=''>Our clients are our M.V.P</h2>
                         <div className='p-2'>
                             <div className='d-flex align-items-center'>
@@ -60,7 +60,7 @@ const Home = () => {
                         <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
-                    <div className=' p-4' style={{ width: '50%', minWidth: '450px' }}>
+                    <div className=' p-4' style={{ width: '50%', minWidth: '350px' }}>
                         <div className='pt-4 d-flex flex-column justify-content-center' style={{ height: '75%' }}>
                             <h2 className='mt-4 mb-2'> Who needs our supportive services?</h2>
                             <h5 className='my-2'>Needs aid post-operation, hospitlaization, or rehabilitation</h5>

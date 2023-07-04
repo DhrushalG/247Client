@@ -21,8 +21,11 @@
 
 @media (max-width: 1024px) {
     * {
-        font-size: 12px;
+        font-size: 14px;
     }
+    /* .homeScale {
+        width: 50%;
+    } */
     /* .icon {
         width: 80%;
         height: 80%;
@@ -31,7 +34,7 @@
 
 @media (max-width: 768px) {
     * {
-        font-size: 12px;
+        font-size: 14px;
     }
     /* .icon {
         width: 80%;
@@ -41,12 +44,16 @@
 
 @media (max-width: 480px) {
     * {
-        font-size: 10px;
+        font-size: 12px;
     }
     /* .icon {
         width: 40%;
         height: 40%;
     } */
+}
+
+.homeScale {
+    width: 50vw;
 }
 
 .icon {

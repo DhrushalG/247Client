@@ -18,20 +18,30 @@ function App() {
         <body>
           <header>
             <nav class="navbar-dark navbar-expand" style={{ backgroundColor: '#1B8C79' }}>
-              <div class="container-fluid navbar-nav">
-                <Link class="nav-link" to='/'>
-                  <img src={Logo} className='mr-2' alt="" style={{ borderRadius: '5px' }} />
-                  24/7 Assure Care
-                </Link>
-                <div class="collapse navbar-collapse d-flex justify-content-center" style={{ marginRight: '15%' }} id="navbarNavAltMarkup">
+              <div class="container-fluid navbar-nav d-flex justify-content-between" >
+
+                <div className='d-flex align-items-center' style={{ width: '40%' }}>
+                  <Link className='nav-link' to='/'>
+                    <img src={Logo} className='' alt="" style={{ borderRadius: '5px' }} />
+                  </Link>
+                  <Link class="nav-link" to='/'>
+                    24/7 Assure Care
+                  </Link>
+                </div>
+
+                <div class="collapse navbar-collapse d-flex" id="navbarNavAltMarkup">
                   <div class="navbar-nav" >
-                    <Link class="nav-link" to='/'>Home</Link>
-                    <Link class="nav-link mx-2" to='AboutUs'>About Us</Link>
-                    <Link class='nav-link' to='Services'>Services</Link>
-                    <Link class="nav-link mx-2" to='Contact'>Contact</Link>
-                    <Link class="nav-link" to='Resources'>Resources</Link>
+                    <Link class="nav-link mx-2" to='/AboutUs'>About Us</Link>
+                    <Link class='nav-link mx-1' to='/Services'>Services</Link>
+                    <Link class="nav-link mx-1" to='/Contact'>Contact</Link>
+                    <Link class="nav-link ml-2" to='/Resources'>Resources</Link>
                   </div>
                 </div>
+
+                <div style={{ width: '33%' }}></div>
+
+
+
               </div>
             </nav>
           </header>

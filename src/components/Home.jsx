@@ -19,8 +19,8 @@ const Home = () => {
                     Cook - DuPage - Lake</h4>
             </div>
             <div className="my-4" style={{ width: '100%', height: '100%' }}>
-                <div className="d-flex" style={{}}>
-                    <div className="p-4" style={{ width: '50%', minHeight: '50%' }}>
+                <div className="d-flex flex-wrap justify-content-center" style={{}}>
+                    <div className="homeScale p-4" style={{ width: '50%', minWidth: '500px' }}>
                         <h2 className=''>Our clients are our M.V.P</h2>
                         <div className='p-2'>
                             <div className='d-flex align-items-center'>
@@ -50,19 +50,19 @@ const Home = () => {
                         <Link className='btn rounded-pill' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/AboutUs'>About Us</Link>
                     </div>
 
-                    <div className="border" style={{ width: '50%', backgroundColor: '#2B8C79' }}>
+                    <div className="homeScale border" style={{ width: '50%', minWidth: '500px', backgroundColor: '#2B8C79' }}>
                         <img src={image3} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                 </div>
 
-                <div className="d-flex" style={{ minHeight: '50%' }}>
-                    <div className="" style={{ width: '50%' }}>
+                <div className="d-flex flex-wrap justify-content-center" style={{ minHeight: '50%' }}>
+                    <div className="homeScale " style={{ width: '50%', minWidth: '500px' }}>
                         <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
-                    <div className='p-4' style={{ width: '50%' }}>
+                    <div className='homeScale p-4' style={{ width: '50%', minWidth: '500px' }}>
                         <div className='pt-4 d-flex flex-column justify-content-center' style={{ height: '75%' }}>
-                            <h2 className='mb-2'> Who needs our supportive services?</h2>
+                            <h2 className='mt-4 mb-2'> Who needs our supportive services?</h2>
                             <h5 className='my-2'>Needs aid post-operation, hospitlaization, or rehabilitation</h5>
                             <h5 className='my-2'>Lives alone and is at risk of falls or injury</h5>
                             <h5 className='my-2'>Disabled or uses a wheelchair, walker or cane</h5>

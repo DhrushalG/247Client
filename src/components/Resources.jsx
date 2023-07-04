@@ -4,12 +4,13 @@ import image5 from "../images/image5.jpeg";
 const Resources = () => {
     return (
         <div className="Resources text-center">
+            <title>24/7 AssureCare - Resources</title>
             <div className="" style={{ height: '400px', width: '100%' }}>
                 <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
                 <div className=" d-flex flex-wrap justify-content-around p-4" style={{}}>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             IS THERE A MINIMUM LENGTH OF TIME THAT I CAN REQUEST CARE FOR MY LOVED ONE?</h4>
                         <label htmlFor="">
@@ -17,7 +18,7 @@ const Resources = () => {
                             and we work to that standard.
                         </label>
                     </div>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             WHAT KIND OF PAYMENTS DOES YOUR AGENCY ACCEPT?</h4>
                         <label htmlFor="">
@@ -26,7 +27,7 @@ const Resources = () => {
                             and Zelle.
                         </label>
                     </div>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             HOW DOES 24/7 ASSURE CARE ENSURE THE SAFETY OF CLIENTS?
                         </h4>
@@ -36,7 +37,7 @@ const Resources = () => {
                             practices, and we regularly monitor the care being provided.
                         </label>
                     </div>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             DO YOU PROVIDE WOUND CARE OR ANY MEDICAL SERVICES?</h4>
                         <label htmlFor="">
@@ -47,7 +48,7 @@ const Resources = () => {
                             services to you directly we can refer you to the right location.
                         </label>
                     </div>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             HOW DOES 24/7 ASSURE CARE HANDLE EMRGENCIES?</h4>
                         <label htmlFor="">
@@ -56,7 +57,7 @@ const Resources = () => {
                             these situations.
                         </label>
                     </div>
-                    <div className="my-2 mx-5" style={{ width: '300px' }}>
+                    <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
                             WHAT IF THE CAREGIVER I AM ASSIGNED ISN'T A GOOD FIT?</h4>
                         <label htmlFor="">

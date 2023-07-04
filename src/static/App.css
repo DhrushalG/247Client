@@ -4,7 +4,7 @@
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .Home,
@@ -21,48 +21,15 @@
 
 @media (max-width: 1024px) {
     * {
-        font-size: 14px;
+        font-size: 16px;
     }
-    /* .homeScale {
-        width: 50%;
-    } */
-    /* .icon {
-        width: 80%;
-        height: 80%;
-    } */
 }
-
-@media (max-width: 768px) {
-    * {
-        font-size: 14px;
-    }
-    /* .icon {
-        width: 80%;
-        height: 80%;
-    } */
-}
-
-@media (max-width: 480px) {
-    * {
-        font-size: 12px;
-    }
-    /* .icon {
-        width: 40%;
-        height: 40%;
-    } */
-}
-
-
-/* .homeScale {
-    width: 50vw;
-} */
 
 .icon {
     margin: 10px 0;
-    /* color: rgb(255, 255, 255); */
     background-color: #1e9e82;
-    width: 5.0vw;
-    height: 5.0vw;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     box-shadow: 0 0 15px 15px #1e9e82;
 }

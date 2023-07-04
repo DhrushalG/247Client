@@ -6,6 +6,7 @@ import '../static/App.css';
 const AboutUs = () => {
     return (
         <div className="AboutUs d-flex flex-wrap justify-content-center text-center" style={{ height: '100%', width: '100%' }}>
+            <title>24/7 AssureCare - About Us</title>
             <div className="p-5" style={{ width: '50%', minWidth: '450px' }}>
                 <h2 className="">GET TO KNOW US</h2>
                 <p htmlFor="">

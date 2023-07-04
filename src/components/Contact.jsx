@@ -6,7 +6,8 @@ const Contact = () => {
         <div className="Contact text-center">
             <title>24/7 AssureCare - Contact</title>
             <div className="" style={{ height: '100%' }}>
-                <h3 className="my-4">CONTACT US</h3>
+                <h3 className="my-4">CONTACT US
+                    <p>*Feel free to email/call for applicant inquiry or to schedule an assessment!*</p></h3>
                 <h5>9375 Landings Ln, Des Plaines, IL 60016, USA </h5>
                 <h5>Assurecare247@gmail.com</h5>
                 <h5>847-483-8999</h5>

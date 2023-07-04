@@ -13,31 +13,31 @@ const Home = () => {
                 <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
-                <h2 className='mt-4 mb-2'>Providing Excellent Care you Deserve</h2>
-                <h4>Our services are in the following counties: <br />
-                    Cook - DuPage - Lake</h4>
+                <h2 className='mt-4 mb-2'>PROVIDING EXCELLENT CARE YOU DESERVE</h2>
+                <p>OUR SERVICE ARE IN THE FOLLOWING COUNTIES: <br />
+                    Cook - DuPage - Lake</p>
             </div>
             <div className="my-4" style={{ width: '100%', height: '100%' }}>
                 <div className="d-flex flex-wrap justify-content-center" style={{}}>
                     <div className=" p-4" style={{ width: '50%', minWidth: '350px' }}>
-                        <h2 className=''>Our clients are our M.V.P</h2>
+                        <h2 className=''>OUR CLIENTS ARE OUR M.V.P.</h2>
                         <div className='p-2'>
                             <div className='d-flex align-items-center'>
-                                <h3 className=''>Mission</h3>
+                                <h3 className=''>MISSION</h3>
                                 <label className='p-3'>
                                     Respectfully and compassionately meet the needs of our client and their families, by listening,
                                     planning, educating, and delivering the highest quality of individualized care.
                                 </label>
                             </div>
                             <div className='d-flex align-items-center'>
-                                <h3>Vision</h3>
+                                <h3>VISION</h3>
                                 <label className='p-3'>
                                     Create and sustain a leading high-quality service that supports individuals to live
                                     as independently as possible in the comfort of their own homes.
                                 </label>
                             </div>
                             <div className='d-flex align-items-center'>
-                                <h3>Promise</h3>
+                                <h3>PROMISE</h3>
                                 <label className='p-3'>
                                     24/7 AssureCare LLC is a home care agency that provides high-quality care services to
                                     individuals who need assistance with daily living activities. We specialize in
@@ -61,7 +61,7 @@ const Home = () => {
 
                     <div className=' p-4' style={{ width: '50%', minWidth: '350px' }}>
                         <div className='pt-4 d-flex flex-column justify-content-center' style={{ height: '75%' }}>
-                            <h2 className='mt-4 mb-2'> Who needs our supportive services?</h2>
+                            <h2 className='mt-4 mb-2'> WHO NEEDS OUR SUPPORTIVE SERVICES?</h2>
                             <h5 className='my-2'>Needs aid post-operation, hospitlaization, or rehabilitation</h5>
                             <h5 className='my-2'>Lives alone and is at risk of falls or injury</h5>
                             <h5 className='my-2'>Disabled or uses a wheelchair, walker or cane</h5>

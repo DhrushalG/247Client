@@ -22,9 +22,9 @@ const Resources = () => {
                         <h4 className="my-4">
                             WHAT KIND OF PAYMENTS DOES YOUR AGENCY ACCEPT?</h4>
                         <label htmlFor="">
-                            The cost of our services varies depending on the level of care needed and the location.
+                            The cost of our services varies depending on the level of care needed.
                             We offer competitive rates and accept a variety of payment methods, including checks
-                            and Zelle.
+                            and Zelle, as well as working with long-term care insurance.
                         </label>
                     </div>
                     <div className="my-2 mx-5" style={{ width: '350px' }}>
@@ -42,15 +42,13 @@ const Resources = () => {
                             DO YOU PROVIDE WOUND CARE OR ANY MEDICAL SERVICES?</h4>
                         <label htmlFor="">
                             Unfortunately, we do not provide medical care, as we are a home care agency and not a home
-                            health agency. The tasks of a home health aide are not drastically different from that of
-                            a caregiver, but our staff is not required to have the additional medical training outside
-                            of basic life support and emergency procedure training. Although we can't provide these
+                            health agency. Although we can't provide these
                             services to you directly we can refer you to the right location.
                         </label>
                     </div>
                     <div className="my-2 mx-5" style={{ width: '350px' }}>
                         <h4 className="my-4">
-                            HOW DOES 24/7 ASSURE CARE HANDLE EMRGENCIES?</h4>
+                            HOW DOES 24/7 ASSURE CARE HANDLE EMERGENCIES?</h4>
                         <label htmlFor="">
                             We have protocols in place to handle emergencies, including medical emergencies and severe
                             weather conditions. All our caregivers are trained to respond quickly and appropriately in

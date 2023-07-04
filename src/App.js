@@ -21,9 +21,9 @@ function App() {
               <div class="navbar-nav align-items-center d-flex" >
 
                 <div className=' d-flex align-items-center' style={{ minWidth: '25%' }}>
+
                   <Link className='nav-link' to='/'>
                     <div>
-
                     </div>
                     <img src={Logo} className='p-1' alt="" style={{ backgroundColor: 'white', boxShadow: '50px -165px 40px 160px rgba(30, 158, 130, 1)', borderRadius: '10px' }} />
                   </Link>
@@ -40,8 +40,6 @@ function App() {
                 </div>
 
                 {/* <div className='' style={{ maxWidth: '25%' }}></div> */}
-
-
 
               </div>
             </nav>

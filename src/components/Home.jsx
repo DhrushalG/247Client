@@ -2,8 +2,11 @@ import { Link } from 'react-router-dom';
 import '../static/App.css';
 import image1 from "../images/image1.jpeg";
 import image3 from "../images/image3.jpeg";
-import image5 from "../images/image5.jpeg";
-
+import image4 from "../images/image4.jpeg";
+import image6 from "../images/image6.jpg";
+import image7 from "../images/image7.jpg";
+import image8 from "../images/image8.jpg";
+import image9 from "../images/image9.jpg";
 const Home = () => {
     return (
         <div class='Home d-flex flex-column align-items-center text-center'>
@@ -11,7 +14,7 @@ const Home = () => {
             {/* <h2>24/7 Assure Care LLC</h2> */}
             {/* <h2 style={{ color: 'white' }}>24/7 Assure Care LLC</h2> */}
             <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#2B8C79' }} >
-                <img src={image1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
+                <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <div>
                 <h2 className='mt-4 mb-2'>Providing Excellent Care you Deserve</h2>
@@ -51,13 +54,13 @@ const Home = () => {
                     </div>
 
                     <div className="" style={{ width: '50%', minWidth: '350px', backgroundColor: '#2B8C79' }}>
-                        <img src={image3} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
+                        <img src={image6} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
                 </div>
 
                 <div className="d-flex flex-wrap justify-content-center" style={{ minHeight: '50%' }}>
                     <div className=" " style={{ width: '50%', minWidth: '350px' }}>
-                        <img src={image5} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
+                        <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                     </div>
 
                     <div className=' p-4' style={{ width: '50%', minWidth: '350px' }}>

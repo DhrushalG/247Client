@@ -17,23 +17,23 @@ function App() {
       <BrowserRouter>
         <body>
           <header>
-            <nav class="navbar-dark navbar-expand" style={{ backgroundColor: '#1B8C79' }}>
+            <nav class="navbar-fixed navbar-dark navbar-expand" style={{ backgroundColor: '#1B8C79' }}>
               <div class="navbar-nav align-items-center d-flex" >
 
-                <div className='d-flex align-items-center' style={{ width: '25%' }}>
+                <div className=' d-flex align-items-center' style={{ minWidth: '25%' }}>
                   <Link className='nav-link' to='/'>
                     <img src={Logo} className='' alt="" style={{ borderRadius: '5px' }} />
                   </Link>
-                  <Link class="nav-link" to='/'>
+                  <Link class=" mt-2 nav-link h5" to='/'>
                     24/7 Assure Care
                   </Link>
                 </div>
 
-                <div class="d-flex flex-wrap justify-content-center" style={{ minWidth: '50%' }}>
-                  <Link class="nav-link ml-4" to='/AboutUs'>About Us</Link>
+                <div class="d-flex flex-wrap justify-content-center " style={{ minWidth: '50%' }}>
+                  <Link class="nav-link" to='/AboutUs'>About Us</Link>
                   <Link class='nav-link mx-4' to='/Services'>Services</Link>
-                  <Link class="nav-link mx-4" to='/Contact'>Contact</Link>
-                  <Link class="nav-link mr-2" to='/Resources'>Resources</Link>
+                  <Link class="nav-link mr-4" to='/Contact'>Contact</Link>
+                  <Link class="nav-link" to='/Resources'>Resources</Link>
                 </div>
 
                 {/* <div className='' style={{ maxWidth: '25%' }}></div> */}

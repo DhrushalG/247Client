@@ -1,5 +1,5 @@
 import '../static/App.css';
-import image5 from "../images/image5.jpeg";
+import image5 from "../images/image5.jpg";
 
 const Resources = () => {
     return (

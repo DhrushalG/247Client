@@ -8,7 +8,7 @@ import { Bento, Accessibility, Iron, Bathtub, SelfImprovement, LocalMall, Medica
 
 const Services = () => {
     return (
-        <div className="text-center" style={{ width: '100%' }}>
+        <div className="text-center" style={{ height: '100%', width: '100%' }}>
             <title>24/7 AssureCare - Services</title>
             <div style={{ color: '#2B8C79' }}>
                 <h2 className="mt-4">OUR SERVICES</h2>

@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import image2 from "../images/image2.jpeg";
 import IDPH from '../images/IDPH_Licensing.png'
-
-
 import '../static/App.css';
 
 const AboutUs = () => {

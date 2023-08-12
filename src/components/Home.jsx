@@ -30,6 +30,13 @@ const Home = () => {
         </div>
     );
 
+    const needs = [
+        'Needs aid post-operation, hospitalization, or rehabilitation',
+        'Lives alone and is at risk of falls or injury',
+        'Disabled or uses a wheelchair, walker or cane',
+        'Just needs help with daily living activities'
+    ];
+
     return (
         <div class='Home d-flex flex-column align-items-center text-center'>
             <title>24/7 AssureCare - Home</title>
@@ -58,13 +65,12 @@ const Home = () => {
                     <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
                 </div>
 
-                <div className=' p-4' style={{ width: '50%', minWidth: '350px' }}>
+                <div className='p-4' style={{ width: '50%', minWidth: '350px' }}>
                     <div className='pt-4 d-flex flex-column justify-content-center' style={{ height: '75%' }}>
-                        <h2 className='mt-4 mb-2'> WHO NEEDS OUR SUPPORTIVE SERVICES?</h2>
-                        <h5 className='my-2'>Needs aid post-operation, hospitlaization, or rehabilitation</h5>
-                        <h5 className='my-2'>Lives alone and is at risk of falls or injury</h5>
-                        <h5 className='my-2'>Disabled or uses a wheelchair, walker or cane</h5>
-                        <h5 className='my-2'>Or they just need help with daily living activities</h5>
+                        <h2 className='mt-4 mb-2'>WHO NEEDS OUR SUPPORTIVE SERVICES?</h2>
+                        {needs.map((need, index) => (
+                            <h5 className='my-2' key={index}>{need}</h5>
+                        ))}
                         <div className='mt-2'>
                             <Link className='btn rounded-pill' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Services'>Our Services</Link>
                         </div>

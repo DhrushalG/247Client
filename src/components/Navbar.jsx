@@ -51,7 +51,7 @@ const Navbar = () => {
 
             {/* SMALL */}
             <Box sx={{ justifyContent: 'between', flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                <div className='navbar-nav d-flex' style={{ width: '100%' }}>
+                <div className='navbar-nav d-flex justify-content-between' style={{ width: '100%' }}>
                     <div className=' d-flex align-items-center' style={{ minWidth: '57%' }}>
                         <Link className='nav-link' to='/'>
                             <img src={Logo} className='' alt='' style={{ backgroundColor: 'white', boxShadow: '50px -165px 40px 160px rgba(30, 158, 130, 1)', borderRadius: '10px' }} />
@@ -62,14 +62,14 @@ const Navbar = () => {
                     </div>
 
                     <div className='d-flex justify-content-end align-items-center' style={{ width: '50%' }}>
-                        <div className='' style={{ width: '80%' }}>
-                            <Link class='mt-2 nav-link h6' style={{ width: '110px', height: '100%' }} to='/'> * 847-483-8999
+                        <div className='' style={{ width: '115px' }}>
+                            <Link class='mt-2 nav-link h6' style={{ width: '100%', height: '100%' }} to='/'> * 847-483-8999
                             </Link>
                         </div>
 
                         <div class=''>
                             <MenuItem aria-controls="menu-appbar" onClick={handleOpenNavMenu} color='#1B8C79' sx={{ borderRadius: '10px' }}>
-                                <MenuIcon style={{ height: '20px', width: '20px', color: 'white', border: 'none' }} />
+                                <MenuIcon style={{ height: '25px', width: '25px', color: 'white', border: 'none' }} />
                             </MenuItem>
                             <Menu id="menu-appbar" anchorEl={anchorElNav} anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }} keepMounted
                                 transformOrigin={{ vertical: 'top', horizontal: 'left' }} open={Boolean(anchorElNav)} onClose={handleCloseNavMenu}

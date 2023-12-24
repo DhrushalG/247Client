@@ -45,7 +45,7 @@ function App() {
             </Switch>
           </main>
 
-          <footer class='container py-5' style={{ minWidth: '100%' }}>
+          <footer class='container py-2' style={{ minWidth: '100%' }}>
             <Footer></Footer>
           </footer>
         </body>

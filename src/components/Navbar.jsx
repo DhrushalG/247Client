@@ -26,13 +26,13 @@ const Navbar = () => {
     };
 
     return (
-        <nav class='navbar-fixed navbar-dark navbar-expand' style={{ backgroundColor: '#1B8C79' }}>
+        <nav class='navbar-fixed navbar-dark navbar-expand Appbar' style={{ backgroundColor: '' }}>
             {/* BIG */}
             <Box sx={{ px: 1, justifyContent: 'center', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                 <div class='navbar-nav align-items-center d-flex justify-content-between' style={{ width: '100%' }}>
                     <div className=' d-flex align-items-center' style={{ minWidth: '25%' }}>
                         <Link className='nav-link' to='/'>
-                            <img src={Logo} className='p-1' alt='' style={{ backgroundColor: 'white', boxShadow: '50px -165px 40px 160px rgba(30, 158, 130, 1)', borderRadius: '10px' }} />
+                            <img src={Logo} className='p-1' alt='' style={{ backgroundColor: 'white', borderRadius: '10px' }} />
                         </Link>
                         <Link class=' mt-2 nav-link h5' to='/'>
                             24/7 Assure Care

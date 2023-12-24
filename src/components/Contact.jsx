@@ -60,7 +60,7 @@ const Contact = () => {
                                 </RadioGroup>
                             </div>
                             <div className='m-3 border multi-horizontal text-center' style={{ height: '100px', width: '100px', borderRadius: '21px' }}>
-                                <p>Resume Here(WIP)</p>
+                                {/* <p>Resume Here(WIP)</p> */}
                             </div>
                         </div>
                         <div class="d-flex justify-content-around" style={{ width: '100%' }}>

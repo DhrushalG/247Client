@@ -58,11 +58,11 @@ const Home = () => {
                 </div>
 
                 <div className="" style={{ width: '50%', minWidth: '350px' }}>
-                    <img src={image6} className='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
+                    <img src={image6} className='' style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }} alt="Responsive" />
                 </div>
 
                 <div className=" " style={{ width: '50%', minWidth: '350px' }}>
-                    <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
+                    <img src={image4} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }} alt="Responsive" />
                 </div>
 
                 <div className='p-4' style={{ width: '50%', minWidth: '350px' }}>

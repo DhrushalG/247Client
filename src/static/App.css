@@ -11,7 +11,8 @@
 .Home,
 .AboutUs,
 .Contact,
-.Resources {
+.Resources,
+.PrivacyPolicy {
     color: #2B8C79;
 }
 
@@ -28,4 +29,10 @@
     height: 70px;
     border-radius: 50%;
     box-shadow: 0 0 15px 15px #1e9e82;
+}
+
+.Appbar {
+    /* background: rgb(27, 140, 121); */
+    /* background: linear-gradient(90deg, rgba(27, 140, 121, 1) 58%, rgba(27, 184, 199, 1) 100%); */
+    background: linear-gradient(90deg, rgba(27, 184, 199, 1) 1%, rgba(27, 140, 121, 1) 100%);
 }

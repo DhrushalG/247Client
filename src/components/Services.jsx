@@ -104,10 +104,11 @@ const Services = () => {
                 <div className="d-flex flex-wrap justify-content-center" style={{ height: '50%' }}>
                     {services.map((service, index) => (
                         <React.Fragment key={index}>
-                            <div className="" style={{ width: '33.3%', minWidth: '350px' }}>
-                                <img src={service.image} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Responsive" />
-                            </div>
                             <ServiceUpper {...service} />
+                            <div className="" style={{ width: '33.3%', minWidth: '350px' }}>
+                                <img src={service.image} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }} alt="Responsive" />
+                            </div>
+
                         </React.Fragment>
                     ))}
                 </div>

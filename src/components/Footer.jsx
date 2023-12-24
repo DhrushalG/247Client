@@ -12,6 +12,7 @@ const Footer = () => {
                 <ul class='list-unstyled text-small'>
                     <li><Link class='text-muted' to='/Resources'>FAQ</Link></li>
                     <li><Link class='text-muted' to='/Contact'>Form</Link></li>
+                    <li><Link class='text-muted' to='/Privacy-policy'>Privacy Policy</Link></li>
                 </ul>
             </div>
             <div class='col-3 col-md'>

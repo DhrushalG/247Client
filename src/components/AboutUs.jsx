@@ -5,15 +5,15 @@ import '../static/App.css';
 
 const AboutUs = () => {
     return (
-        <div className="AboutUs d-flex flex-wrap justify-content-center align-items-center text-center" style={{ height: '100%', width: '100%' }}>
+        <div className="AboutUs d-flex flex-wrap justify-content-center align-items-center text-center p-5" style={{ height: '100%', width: '100%' }}>
             <title>24/7 AssureCare - About Us</title>
 
             <div style={{ width: '50%', minWidth: '350px' }}>
-                <img src={image2} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
+                <img src={image2} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }} class="" alt="Responsive" />
             </div>
             <div className="p-3" style={{ width: '50%', minWidth: '350px' }}>
                 <h2 className="">GET TO KNOW US</h2>
-                <p htmlFor="">
+                <p className='text-justify'>
                     As a company founded by a family with over 25 years of combined care
                     giving experience, we understand that caring for a loved one can be a
                     challenging and emotional journey. That's why we're here to offer our
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 </p>
             </div>
 
-            <div className='p-3' style={{ width: '50%', minWidth: '350px' }}>
+            <div className='p-3 text-center' style={{ width: '80%', minWidth: '350px' }}>
                 <h2 class="">WHY CHOOSE 24/7 ASSURE CARE?</h2>
                 <p class="">Our agency is founded by a pair of experienced caregivers who understand
                     that each client requires personalized care. When choosing a caregiver for each client, we take deep consideration into
@@ -39,7 +39,7 @@ const AboutUs = () => {
                     <Link className='btn rounded-pill my-4 mx-1' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Contact'>Contact</Link>
                 </div>
             </div>
-            <div className='px-3 d-flex justify-content-end align-self-end' style={{ width: '50%', minWidth: '350px' }}>
+            <div className='px-1 d-flex justify-content-end align-self-end' style={{ width: '50%', minWidth: '350px' }}>
                 <h5 className=''>*Licensed by
                     <img className='ml-3' src={IDPH} style={{ width: '100px', objectFit: 'contain' }} class="" alt="Responsive" />
                 </h5>

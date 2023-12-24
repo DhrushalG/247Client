@@ -7,6 +7,7 @@ import Resources from './components/Resources';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import './static/App.css';
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
               </Route>
               <Route exact path='/Contact'>
                 <Contact></Contact>
+              </Route>
+              <Route exact path='/Privacy-policy'>
+                <PrivacyPolicy></PrivacyPolicy>
               </Route>
             </Switch>
           </main>

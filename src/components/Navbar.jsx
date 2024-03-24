@@ -56,7 +56,7 @@ const Navbar = () => {
                 <div className='navbar-nav d-flex justify-content-between' style={{ width: '100%' }}>
                     <div className=' d-flex align-items-center' style={{ minWidth: '57%' }}>
                         <Link className='nav-link' to='/'>
-                            <img src={Logo} className='' alt='' style={{ backgroundColor: 'white', boxShadow: '50px -165px 40px 160px rgba(30, 158, 130, 1)', borderRadius: '10px' }} />
+                            <img src={Logo} className='' alt='' style={{ backgroundColor: 'white', borderRadius: '10px' }} />
                         </Link>
                         <Link class=' mt-2 nav-link h5' style={{}} to='/'>24/7 Assure Care
                         </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
                             </MenuItem>
                             <Menu id="menu-appbar" anchorEl={anchorElNav} anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }} keepMounted
                                 transformOrigin={{ vertical: 'top', horizontal: 'left' }} open={Boolean(anchorElNav)} onClose={handleCloseNavMenu}
-                                PaperProps={{ style: { background: '#1B8C79' } }} sx={{ display: { xs: 'block', md: 'none' } }}>
+                                MenuListProps={{ style: { background: '#1B8C79' } }} sx={{ display: { xs: 'block', md: 'none' } }}>
                                 {navLinks.map((link, index) => (
                                     <MenuItem key={index}>
                                         <Link onClick={handleCloseNavMenu} className="h4" style={{ color: 'white', textDecoration: 'none' }} to={link.to}>

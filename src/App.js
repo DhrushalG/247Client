@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import './static/App.css';
+// import ContactUs2 from './components/ContactUs2';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
               <Route exact path='/Contact'>
                 <Contact></Contact>
               </Route>
+              {/* <Route exact path='/ContactUs2'>
+                <ContactUs2></ContactUs2>
+              </Route> */}
               <Route exact path='/Privacy-policy'>
                 <PrivacyPolicy></PrivacyPolicy>
               </Route>

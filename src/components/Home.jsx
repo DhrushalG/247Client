@@ -3,6 +3,8 @@ import '../static/App.css';
 import image3 from "../images/image3.jpeg";
 import image4 from "../images/image4.jpeg";
 import image6 from "../images/image6.jpg";
+import { Button } from '@mui/material';
+
 const Home = () => {
 
     const sections = [
@@ -40,7 +42,7 @@ const Home = () => {
     return (
         <div class='Home d-flex flex-column align-items-center text-center'>
             <title>24/7 AssureCare - Home</title>
-            <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#2B8C79' }} >
+            <div className="" style={{ width: '100%', height: '500px', backgroundColor: '#1b8c79' }} >
                 <img src={image3} style={{ width: '100%', height: '100%', objectFit: 'cover' }} class="" alt="Responsive" />
             </div>
             <h2 className='mt-4 mb-2'>PROVIDING EXCELLENT CARE YOU DESERVE</h2>
@@ -54,7 +56,11 @@ const Home = () => {
                             <Section key={index} {...section} />
                         ))}
                     </div>
-                    <Link className='btn rounded-pill' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/AboutUs'>About Us</Link>
+                    <Button variant='contained' className='ml-3' style={{ backgroundColor: '#1b8c79'}}>
+                        <Link className='' style={{ textDecoration: 'none', backgroundColor: '#1b8c79', color: 'white' }} to='/AboutUs'>
+                            About Us
+                        </Link>
+                    </Button>
                 </div>
 
                 <div className="" style={{ width: '50%', minWidth: '350px' }}>
@@ -72,7 +78,11 @@ const Home = () => {
                             <h5 className='my-2' key={index}>{need}</h5>
                         ))}
                         <div className='mt-2'>
-                            <Link className='btn rounded-pill' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Services'>Our Services</Link>
+                            <Button variant='contained' style={{ backgroundColor: '#1b8c79' }}>
+                                <Link className='' style={{ textDecoration: 'none', backgroundColor: '#1b8c79', color: 'white' }} to='/Services'>
+                                    Our Services
+                                </Link>
+                            </Button>
                         </div>
                     </div>
                 </div>

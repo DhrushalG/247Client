@@ -13,7 +13,7 @@
 .Contact,
 .Resources,
 .PrivacyPolicy {
-    color: #2B8C79;
+    color: #1b8c79;
 }
 
 @media (max-width: 1024px) {
@@ -22,17 +22,17 @@
     }
 }
 
-.icon {
+/* .icon {
     margin: 10px 0;
     background-color: #1e9e82;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     box-shadow: 0 0 15px 15px #1e9e82;
-}
+} */
 
 .Appbar {
     /* background: rgb(27, 140, 121); */
     /* background: linear-gradient(90deg, rgba(27, 140, 121, 1) 58%, rgba(27, 184, 199, 1) 100%); */
-    background: linear-gradient(90deg, rgba(27, 184, 199, 1) 1%, rgba(27, 140, 121, 1) 100%);
+    background: linear-gradient(90deg, rgba(27, 184, 199, 1) 1%, rgba(27, 140, 121, 1) 80%);
 }

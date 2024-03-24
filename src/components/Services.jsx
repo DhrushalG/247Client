@@ -95,12 +95,12 @@ const Services = () => {
     return (
         <div className="text-center" style={{ height: '100%', width: '100%' }}>
             <title>24/7 AssureCare - Services</title>
-            <div style={{ color: '#2B8C79' }}>
+            <div style={{ color: '#1b8c79' }}>
                 <h2 className="mt-4">OUR SERVICES</h2>
                 <p>Quality Guranteed</p>
             </div>
 
-            <div className="" style={{ backgroundColor: '#2B8C79', color: 'white' }}>
+            <div className="" style={{ backgroundColor: '#1b8c79', color: 'white' }}>
                 <div className="d-flex flex-wrap justify-content-center" style={{ height: '50%' }}>
                     {services.map((service, index) => (
                         <React.Fragment key={index}>

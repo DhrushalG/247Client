@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import image2 from "../images/image2.jpeg";
 import IDPH from '../images/IDPH_Licensing.png'
 import '../static/App.css';
+import { Button } from '@mui/material';
 
 const AboutUs = () => {
     return (
@@ -35,8 +36,16 @@ const AboutUs = () => {
                     compatibility based on client needs and preferences. Offering 24 hour services including holidays and weekends, you and
                     your loved one can relax knowing 24/7 Assure Care is there.</p>
                 <div className="d-flex align-items-center">
-                    <Link className='btn rounded-pill my-4 mx-1' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Services'>Our Services</Link>
-                    <Link className='btn rounded-pill my-4 mx-1' style={{ backgroundColor: '#2B8C79', color: 'white' }} to='/Contact'>Contact</Link>
+                <Button variant='contained' style={{ backgroundColor: '#1b8c79' }}>
+                    <Link className='' style={{ textDecoration: 'none', backgroundColor: '#1b8c79', color: 'white' }} to='/Services'>
+                        Our Services
+                    </Link>
+                </Button>
+                <Button variant='contained' className='ml-3' style={{ backgroundColor: '#1b8c79'}}>
+                    <Link className='' style={{ textDecoration: 'none', backgroundColor: '#1b8c79', color: 'white' }} to='/Contact'>
+                        Contact
+                    </Link>
+                </Button>
                 </div>
             </div>
             <div className='px-1 d-flex justify-content-end align-self-end' style={{ width: '50%', minWidth: '350px' }}>
